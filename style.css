@@ -1,4 +1,6 @@
 * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
@@ -6,7 +8,7 @@
         
         body {
             font-family: Helvetica;
-            background: #053A3D;
+            background: #d2d2d2;
         }
         
         h2 {
@@ -19,13 +21,14 @@
         }
         
         .container {
-            margin: 80px 70px 70px;
-            box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2);
+            margin: 100px 50px 50px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.265),
+                        -5px -5px 5px rgba(0, 0, 0, 0.265);
         }
         
         table {
             border-radius: 5px;
-            font-size: 12px;
+            font-size: 16px;
             font-weight: normal;
             border: none;
             border-collapse: collapse;
@@ -33,14 +36,14 @@
             max-width: 100%;
             white-space: nowrap;
             background-color: white;
-            border: 1px solid #1A2929;
+            border: 1px solid #000000;
         }
         
         td,
         th {
             text-align: center;
             padding: 8px;
-            border-right: 1px solid #1A2929;
+            border-right: 1px solid #000000;
         }
         
         td {
@@ -49,12 +52,15 @@
         
         thead th {
             color: #ffffff;
-            background: #1A2929;
+            background: #000000;
         }
         
         tr:nth-child(even) {
-            background: #9EDFD3;
+            background: #3f250b;
+            color: #fff;
         }
+
+        
         /* Responsive code */
         
         @media (max-width: 767px) {
@@ -105,10 +111,10 @@
             }
             tr td:nth-child(odd) {
                 background: #F8F8F8;
-                border-right: 1px solid #1A2929;
+                border-right: 1px solid #000000;
             }
             tr td:nth-child(even) {
-                background-color: #9EDFD3;
+                background-color: #000000;
                 border-right: 1px solid #1A2929;
             }
             tbody td {
