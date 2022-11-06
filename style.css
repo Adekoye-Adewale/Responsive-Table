@@ -105,16 +105,20 @@
             }
             tbody tr:nth-child(odd) {
                 background: none;
+                color: #fff;
             }
             tr:nth-child(even) {
                 background: transparent;
+                color: #000;
             }
             tr td:nth-child(odd) {
                 background: #F8F8F8;
+                color: #000;
                 border-right: 1px solid #000000;
             }
             tr td:nth-child(even) {
                 background-color: #000000;
+                color: #fff;
                 border-right: 1px solid #1A2929;
             }
             tbody td {
